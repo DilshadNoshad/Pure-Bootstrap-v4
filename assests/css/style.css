@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-body {
-  font-family: "Great Vibes", cursive;
+/* header start  */
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(../img/hero-bg.jpg) fixed no-repeat center / cover;
 }
+/* header end  */
+/* body {
+  font-family: "Great Vibes", cursive;
+} */
