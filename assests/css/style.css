@@ -95,3 +95,53 @@ header {
     url(../img/old-paper-bg.jpg) fixed no-repeat top / cover;
 }
 /*  famousWriters end  */
+/*  suggestbooks start  */
+.suggested-books {
+  height: 100vh;
+  background: url(../img/suggest-books-bg.jpg) no-repeat center / cover;
+}
+
+.books {
+  position: relative;
+  height: 40vh;
+}
+
+.book {
+  position: absolute;
+  width: 30%;
+  box-shadow: 5px 10px 15px #444;
+  border-right: 5px solid #777;
+  border-bottom: 10px solid #444;
+  transition: all 0.6s ease-in-out;
+}
+
+.book-1 {
+  top: 5%;
+  right: 20%;
+  transform: rotate(-45deg);
+}
+.book-2 {
+  top: 10%;
+  right: 55%;
+  transform: rotate(45deg);
+}
+.book-3 {
+  top: 35%;
+  right: 40%;
+  transform: rotate(55deg);
+}
+.book-4 {
+  top: 30%;
+  right: 10%;
+  transform: rotate(-24deg);
+}
+
+.book:hover,
+.book:focus {
+  transform: scale(1.2) rotateX(20deg);
+  z-index: 50;
+  box-shadow: 5px 10px 25px #444;
+  border-right: 10px solid #ddd;
+  border-bottom: 15px solid #bbb;
+}
+/*  suggestbooks end  */
