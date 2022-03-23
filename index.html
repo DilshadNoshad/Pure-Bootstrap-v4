@@ -21,6 +21,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- lightbox -->
+    <link rel="stylesheet" href="assests/css/lightbox.css" />
     <title>Booki | web - D-vers</title>
   </head>
   <body>
@@ -38,13 +40,13 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <h1 class="fst-italic display-1 text-light mb-5 banner-heading">
+            <h1 class="fst-italic display-1 text-light mb-5 banner-headivg">
               We<img
                 src="assests/img/heart.png"
                 width="250"
                 class="img-fluid"
                 alt=""
-              />Reading
+              />Readivg
             </h1>
             <a href="" class="btn btn-lg text-uppercase btn-outline-danger px-5"
               >Checkout</a
@@ -54,6 +56,114 @@
       </div>
     </header>
     <!-- header end -->
+
+    <!-- gallery start -->
+    <section class="gallery">
+      <div class="container">
+        <!-- title start -->
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="text-secondary text-uppercase fst-italic const-title">
+              The best libraries in the world
+            </h1>
+          </div>
+        </div>
+        <!-- title end -->
+        <div class="row mb-4 first-row align-items-end">
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-2.jpg"
+              data-lightbox="library"
+              data-title="Clementinum, Prague"
+              ><img
+                src="assests/img/library-2.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-3.jpg"
+              data-lightbox="library"
+              data-title="Bibliotheca Alexandrina, Alexandria, Egypt"
+              ><img
+                src="assests/img/library-3.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-2.jpg"
+              data-lightbox="library"
+              data-title="Trinity College Old Library, Dublin"
+              ><img
+                src="assests/img/library-2.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-4.jpg"
+              data-lightbox="library"
+              data-title="Central Library of Vancouver, Canada"
+              ><img
+                src="assests/img/library-4.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="row second-row align-items-end">
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-4.jpg"
+              data-lightbox="library"
+              data-title="Library of Congress, Washington, D.C."
+              ><img
+                src="assests/img/library-4.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-2.jpg"
+              data-lightbox="library"
+              data-title="New York Public Library (Stephen A. Schwarzman Building)"
+              ><img
+                src="assests/img/library-2.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-3.jpg"
+              data-lightbox="library"
+              data-title="Marciana Library, Venice"
+              ><img
+                src="assests/img/library-3.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+            <a
+              href="assests/img/library-3.jpg"
+              data-lightbox="library"
+              data-title="Seattle Public Library’s Central Library"
+              ><img
+                src="assests/img/library-3.jpg"
+                class="img-thumbnail gallery-img"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery end -->
     <!-- jquery-3 -->
     <script src="assests/js/jquery-3.6.0.min.js"></script>
     <!-- bootstrap bundle and popper js -->
@@ -61,5 +171,7 @@
     <script src="assests/js/popper.js"></script>
     <!-- custom script -->
     <script src="assests/js/script.js"></script>
+    <!-- custom script -->
+    <script src="assests/js/lightbox.js"></script>
   </body>
 </html>

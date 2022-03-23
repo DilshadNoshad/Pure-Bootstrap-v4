@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
+body {
+  overflow-x: hidden;
+}
 /* header start  */
 header {
   height: 100vh;
@@ -35,3 +38,50 @@ header {
   }
 }
 /* header end  */
+
+/* common-title start */
+.const-title {
+  display: inline-block;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px #aaa;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.const-title::first-letter {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  margin-right: 10px;
+  font-style: normal;
+}
+.const-title:hover {
+  transform: translate(-5px, -3px);
+  text-shadow: 2px 5px 20px #aaa;
+}
+/* common-title end */
+
+/* gallery start */
+.gallery-img {
+  backface-visibility: hidden;
+  transition: all 0.5s;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+.first-row {
+  transform: translateX(-300px);
+  opacity: 0;
+  transition: all 2.5s;
+}
+.second-row {
+  transform: translateX(300px);
+  opacity: 0;
+  transition: all 2.5s;
+}
+
+.change .first-row,
+.change .second-row {
+  transform: translateX(0);
+  opacity: 1;
+}
+/* gallery end */
