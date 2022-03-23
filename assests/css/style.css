@@ -85,3 +85,13 @@ header {
   opacity: 1;
 }
 /* gallery end */
+
+/*  famousWriters start  */
+.famous-writers {
+  background: linear-gradient(
+      rgba(250, 250, 250, 0.6),
+      rgba(250, 250, 250, 0.5)
+    ),
+    url(../img/old-paper-bg.jpg) fixed no-repeat top / cover;
+}
+/*  famousWriters end  */
