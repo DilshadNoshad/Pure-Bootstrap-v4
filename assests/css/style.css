@@ -250,4 +250,19 @@ header {
     transform: translateX(0);
   }
 }
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  box-shadow: none;
+  background: transparent;
+  color: #555;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: none;
+  background: rgba(250, 250, 250, 0.8);
+}
 /* contact end  */
