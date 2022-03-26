@@ -3,6 +3,57 @@
 body {
   overflow-x: hidden;
 }
+
+.humburger-menu {
+  width: 60px;
+  height: 60px;
+  background: #7f7b82;
+  position: fixed;
+  z-index: 200;
+  inset: 20px 20px auto auto;
+  border-radius: 50%;
+  box-shadow: none !important;
+  transition: all 0.5s;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  width: 28px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px;
+  transition: all 0.5s;
+}
+.change .line-1 {
+  transform: rotate(-405deg) translate(-3px, 3px);
+  background-color: rgba(35, 37, 40, 0.98);
+}
+.change .line-2 {
+  opacity: 0;
+}
+.change .line-3 {
+  transform: rotate(405deg) translate(-5px, -5px);
+  background-color: rgba(35, 37, 40, 0.98);
+}
+
+.bg-cover {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(35, 37, 40, 0.98);
+  position: fixed;
+  z-index: 100;
+  inset: 25px 25px auto auto;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.change .bg-cover {
+  transform: scale(150);
+}
+
+.change .humburger-menu {
+  background-color: #fff;
+}
 /* header start  */
 header {
   height: 100vh;

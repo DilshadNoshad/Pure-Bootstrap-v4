@@ -24,4 +24,8 @@ $(document).ready(function () {
       );
     }
   });
+
+  $(".humburger-menu").click(function () {
+    $(".navigation").toggleClass("change");
+  });
 });
