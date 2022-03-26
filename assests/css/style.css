@@ -54,6 +54,25 @@ body {
 .change .humburger-menu {
   background-color: #fff;
 }
+
+.nav-content {
+  position: fixed;
+  width: 100%;
+  z-index: 150;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #eee;
+  border-bottom: 2px solid #eee;
+}
+.nav-link:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50% 50% 0 0;
+  border-bottom: 2px solid #aaa;
+}
 /* header start  */
 header {
   height: 100vh;

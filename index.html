@@ -28,12 +28,79 @@
   <body>
     <!-- navigation start  -->
     <nav class="navigation">
-      <button type="button" class="navbar-toggler humburger-menu">
+      <button
+        type="button"
+        class="navbar-toggler humburger-menu"
+        data-bs-target="#myNavbar"
+        data-bs-toggle="collapse"
+      >
         <div class="line-1"></div>
         <div class="line-2"></div>
         <div class="line-3"></div>
       </button>
       <div class="bg-cover"></div>
+      <div class="nav-content collapse" id="myNavbar">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-10 mx-auto">
+              <a href="" class="navbar-brand mt-4 d-lg-none d-block">
+                <img src="assests/img/Booki.png" width="150" alt="booki" />
+              </a>
+              <ul
+                class="navbar-nav flex-lg-row flex-column nav-justified text-capitalize"
+              >
+                <li class="nav-item m-lg-3 m-1">
+                  <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item m-lg-3 m-1">
+                  <a href="" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item m-lg-3 m-1">
+                  <a href="" class="nav-link">Library</a>
+                </li>
+                <li class="nav-item m-lg-3 m-1">
+                  <a href="" class="nav-link">Deals</a>
+                </li>
+                <li class="nav-item m-lg-3 m-1">
+                  <a href="" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item m-lg-3 m-1">
+                  <a href="" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-5 col-10 mx-auto">
+              <form class="mt-3">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search..."
+                  />
+                  <button type="button" class="btn btn-secondary">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row my-5">
+            <div class="col text-center">
+              <h1 class="display-1 text-white">Your Chance</h1>
+              <h1 class="text-capitalize text-light">
+                Get each book for $9.99
+              </h1>
+            </div>
+          </div>
+          <div class="row d-lg-block d-none">
+            <div class="col text-center">
+              <img src="assests/img/Booki.png" width="550" alt="booki" />
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
     <!-- navgation end -->
     <!-- header start -->
@@ -584,7 +651,7 @@
                 class="col-sm-5 col-8 floating-item fifth-item mx-auto my-4 p-2"
               >
                 <a href="#" class="text-light text-decoration-none"
-                  ><i class="fas fa-book"></i>Read online</a
+                  ><i class="fas fa-book"></i> Read online</a
                 >
               </div>
             </div>
